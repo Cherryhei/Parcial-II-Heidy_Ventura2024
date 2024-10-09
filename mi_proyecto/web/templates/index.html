@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster High - Una fiesta tenebrosa</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!-- CSS integrado dentro del HTML -->
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            font-family: 'Creepster', cursive;
+        }
+
+        .header, .footer {
+            background-color: #000000;
+            padding: 20px;
+            text-align: center;
+            color: #ff0099;
+        }
+
+        .nav-link {
+            color: #0cc4fc !important;
+        }
+
+        h1, h2 {
+            color: #ff0099;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .services div {
+            background-color: #333333;
+            padding: 20px;
+            border-radius: 8px;
+            border: 2px solid #ff0099;
+            color: #4ea706;
+        }
+
+        .services div:hover {
+            background-color: #444444;
+        }
+
+        @media (max-width: 768px) {
+            .services {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Estilos para la imagen grande */
+        .hero-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .hero-section {
+            background-image: url(https://static.wikia.nocookie.net/doblaje/images/b/b2/MonsterHigh6.jpg/revision/latest?cb=20140226183400&path-prefix=es);
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #7714e9;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Monster High - Una fiesta tenebrosa</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Eventos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+   
+    <!-- Imagen grande (Hero Image) -->
+<section class="hero-image" style="display: flex; justify-content: center; align-items: center;">
+    <img src="https://www.lavanguardia.com/peliculas-series/images/movie/backdrop/2012/10/w1280/aKqVWyGVAH2ioKgUmA6z15DlGiy.jpg" alt="Fiesta Tenebrosa" style="width: 50%; height: auto; margin-right: 10px;">
+    <img src="https://static.wikia.nocookie.net/doblaje/images/3/31/MH0.png/revision/latest?cb=20130709212312&path-prefix=es" alt="Fiesta Tenebrosa" style="width: 50%; height: auto; margin-left: 10px;">
+</section>
+
+    
+
+    <main class="container">
+        <section>
+            <h2>Bienvenidos a la Fiesta Tenebrosa</h2>
+            <p>Prepárate para una noche llena de sustos y diversión en la escuela más espeluznante de todas: ¡Monster High!</p>
+        </section>
+
+        <section class="services">
+            <div>Decoración tenebrosa</div>
+            <div>Concursos de disfraces</div>
+            <div>Cocktails terroríficos</div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Contacto: monsterhigh@fiesta.com</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
